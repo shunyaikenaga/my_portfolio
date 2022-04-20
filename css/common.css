@@ -52,3 +52,17 @@ text-align: center;
 height: 700px;
 background-color: #75A9FF;
 }
+
+.top_title{
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.top_subtitle {
+  font-size: 20px;
+  font-weight: bold;  
+  color: #fff;
+  letter-spacing: 5px;
+}
