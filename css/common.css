@@ -113,3 +113,74 @@ background-color: #75A9FF;
   width: 40%;
   margin: 0 auto 30px;
 }
+
+.skill_item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.skill_img {
+  margin-right: 20px;
+}
+
+.skill_img img {
+  width: 60px;
+}
+
+
+.work_all{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work_item{
+  flex: 32%;
+  margin-right: 2%;
+}
+
+.work_item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.work_item a img {
+  width: 100%;
+}
+
+.work_body p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+.contact_list {
+  display: flex;  align-items: center;
+  justify-content: center;
+}
+
+.contact_list li {
+  list-style: none;
+}
+
+.contact_item {
+  width: 60px;
+}
+
+.contact_mail {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bottom{
+  background-color: #333;
+}
+
+.bottom .inner{
+  padding: 30px;
+}
+
+.copyright{
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+}
